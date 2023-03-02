@@ -1,2 +1,2 @@
 # kodluyoruz-odevler
-## Kodluyoruz eğitim platformunda verilen ödev içerikleridir.
+## Kodluyoruz odev 2
