@@ -1,4 +1,4 @@
-# Kodluyoruz Odevler
+# Kodluyoruz FIRST REPOSITORY
 **[Kodluyoruz](https://kodluyoruz.org)** 
 **The first repository I opened as part of the Front-End training.**
 ## Installation
