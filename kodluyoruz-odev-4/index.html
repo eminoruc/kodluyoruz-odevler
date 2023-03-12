@@ -5,8 +5,124 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: darkgray;
+            color: black;
+        }
+        .page-content{
+            margin: 2% 15%;
+            background-color:rgba(255, 255, 255, 0.6);
+            position: absolute;
+            
+        }
+        #page-header{ 
+            text-align: center;
+            background-color: rgb(128, 128, 128);
+            margin: 10px 0px;
+        
+        }
+        .food-information p{
+            text-indent:30px;
+            margin: 10px 20px;
+        }
+        .recipe-area{
+            padding: 50px 0px;
+            width: 100%;
+            display: inline-block;
+
+        }
+        .food-materials{
+            float: left;
+            margin: 0px 30px;
+
+            width: 35%;
+            max-width: 100%;
+
+        }
+        .recipe{
+            float: left;
+            margin:0px 30px;
+            width: 55%;
+            max-width: 100%;
+        }
+        .note{
+            float: left;
+            margin:2% 3%;
+        }
+        #adder-name{
+            text-align: center; 
+            margin-bottom: 10px;
+            background-color: rgb(128, 128, 128);
+            font-size: large;
+        }
+    </style>
 </head>
 <body>
     
+    <section class="page-content">
+        <header id="page-header"><h1><i>Trileçe Tarifi</i></h1></header>
+        <section class="food-information">
+            <article>
+                <header><h3><b>Trileçe Ne Tatlısı?</b></h3></header>
+                <p>Trileçe; üç sütlü anlamındadır. Manda, keçi ve inek sütünün bir arada kullanıldığı sütlü şerbet ile hazırlanan, hafifliği ve sünger dokusuna sahip pandispanyasıyla lezzetli bir balkan tatlısı tarifidir.</p>
+            </article>
+        </section>
+        <div class="recipe-area">
+            <div class="food-materials"> <!--Yemek Malzemeleri-->
+                <header><h3>GEREKLİ MALZEMELER</h3></header>
+                <ul>
+                    <li>5 adet yumurta</li>
+                    <li>1 su bardağından 1 parmak eksik şeker</li>
+                    <li>1,5 su bardağı un</li>
+                    <li>1 paket kabartma tozu</li>
+                    <li>1 paket vanilya</li>
+                </ul>
+                <ul>
+                    <h4 class="food-materials-header">Sütlü sosu için;</h4>
+                    <li>3,5 su bardağı süt</li>
+                    <li>3,5 su bardağı süt</li>
+                    <li>200 g sıvı krema</li>
+                </ul>
+                <ul>
+                    <h4 class="food-materials-header">Karamel sosu için;</h4>
+                    <li>1 çay bardağı şeker</li>
+                    <li>1 yemek kaşığı tereyağı</li>
+                    <li>200 g sıvı krema</li>
+                </ul>
+                <ul>
+                    <h4 class="food-materials-header">Üzeri için;</h4>
+                    <li>1 paket krem şanti</li>
+                </ul>
+            </div>
+            <div class="recipe"> <!--Yemek tarifi-->
+                <header><h3>SIRAYLA YAPIM AŞAMASI </h3></header>
+                <ol>
+                    <li>Kremşantili trileçe yapmak için öncelikle karıştırma kabımıza yumurta ve toz şekeri alıp boza kıvamına gelene kadar çırpalım.</li>
+                    <li>Un, kabartma tozu ve vanilyayı ekleyip spatulayla alttan üste doğru karıştırıp yağlı kağıt serili fırın kabına dökelim.</li>
+                    <li>170°lik fırında 10 dk, sonra ısıyı 150° düşürüp yaklaşık 30 dk pişirelim.</li>
+                    <li>Trileçenin sütlü sosu için uygun bir kapta süt, toz şeker ve sıvı kremayı çırpıp buzdolabında bekletelim.</li>
+                    <li>Karamelli sosu için, tavamıza şekeri alıp orta ateşte sürekli karıştırarak erimesini sağlayalım.</li>
+                    <li>Açık bir renk alınca 1 yemek kaşığı tereyağını ekleyelim ve yağın erimesini sağlayalım.</li>
+                    <li>Son olarak sıvı kremayı da ekleyip sosumuz kıvam alana kadar kısık ateşte kısa süre karıştırarak pişirelim.</li>
+                    <li>Ilımış olan kekimizi ters çevirip yağlı kağıdı çıkarıp çatalla delikler açalım.</li>
+                    <li>Ilımış olan kekimizi ters çevirip yağlı kağıdı çıkarıp çatalla delikler açalım.</li>
+                    <li>Ilımış olan kekimizi ters çevirip yağlı kağıdı çıkarıp çatalla delikler açalım.</li>
+                    <li>Ilımış olan kekimizi ters çevirip yağlı kağıdı çıkarıp çatalla delikler açalım.</li>
+                    <li>Ayırmış olduğumuz krem şanti ile süsleyip kürdan ile şekil verelim.</li>
+                    <li>5-6 saat dinlendirdikten sonra dilimleyerek servis edelim.</li>
+                </ol>
+                
+            </div>
+            <div class="note"><!--Tarif ekleyen not bölümü-->
+                <p><b>NOT:</b>Trileçe tarifinin aslında krem şanti kullanılmıyor diye biliyorum, bu tarifi yaparken ben krem şanti kullanmayı tercih ettim, çünkü çok fazla tatlı seven bir kişi değilim. Sadece karamel tadı bana biraz ağır geliyor. Diğer şerbetli tatlıları da kaymak, dondurma gibi sütlü bir şey eşliğinde yemeyi tercih ederim. Bu tamamen benim damak zevkimle ilgili :) Dileyen elbette krem şanti kullanmadan da hazırlayabilir, dediğim gibi ben yoğun tatlı şeyleri biraz hafifleterek tüketmeyi seviyorum. Hafif sütlü tatlı tarifleri arayanlanlara tavsiyemdir, deneyeceklere şimdiden afiyet olsun.</p>
+            </div>
+        </div>
+        <p id="adder-name"><b>Tarif:</b> EMİN ORUÇ</p><!--Ürünü ekleyen kişi ismi-->
+    </section>
 </body>
 </html>
