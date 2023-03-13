@@ -1,6 +1,6 @@
 # [Kodluyoruz](https://kodluyoruz.org/)
 
-Bu bölümde [Kodluyoruz](https://kodluyoruz.org/) css ödevleri bulunmaktadır
+Bu bölümde [Kodluyoruz](https://kodluyoruz.org/) HTML ödevleri bulunmaktadır
 
 
 ![Logo](https://kodluyoruz.org/wp-content/uploads/2022/05/kodluyoruz_yatay_slogan-300x35.png)
