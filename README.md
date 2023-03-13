@@ -1,4 +1,5 @@
-# Kodluyoruz FIRST REPOSITORY
+![Logo](https://kodluyoruz.org/wp-content/uploads/2022/05/kodluyoruz_yatay_slogan-300x35.png)
+# FIRST REPOSITORY
 **[Kodluyoruz](https://kodluyoruz.org)** 
 **The first repository I opened as part of the Front-End training.**
 ## Installation
@@ -16,6 +17,4 @@ Herhangi bir geri bildiriminiz varsa, lütfen orucemin@gmail.com adresinden bana
   
 ## Lisans
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-
-![Logo](https://kodluyoruz.org/wp-content/uploads/2022/05/kodluyoruz_yatay_slogan-300x35.png)
 ![Logo](https://app.patika.dev/staticFiles/newPatikaLogo.svg)
